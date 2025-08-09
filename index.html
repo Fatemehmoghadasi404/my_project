@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه گل و گیاه ملورین</title>
+    <!-- لینک بوت استرپ-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- لینک بوت استرپ-->
+     <!--استایل-->
+     <!-- استایل محصولات--><link rel="stylesheet" href="css/style-mahsolat.css">
+
+       <!--منو-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+       <link rel="stylesheet" href="css/style-search.css">
+          <!--منو-->
+          <link rel="stylesheet" href="css/style-m.css">
+     <!--استایل-->
+     <!--نماد ها -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     <!--نماد ها -->
+  
+      <!-- ایکون ها -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.min.css'>
+  <link rel="stylesheet" href="css/style-icon.css">
+  <!-- ایکون ها -->
+     <style>
+          .button {
+          background-color: #527953; /* Green */
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          -webkit-transition-duration: 0.4s; /* Safari */
+          transition-duration: 0.4s;
+        }
+     </style>
+</head>
+<body>
+    <!--منو-->
+    <div class="container-fluid  sticky-top">
+      <div class="row">
+  <div class="d-flex justify-content-between   " style="background-color: rgba(5, 76, 6, 0.869);">
+    <div class="p-2 order-3">
+      <button type="button" class="btn ms-0" style="font-size: 17px; color:#ffffff ; box-shadow: #00ea71;" >
+          فروشگاه گل و گیاه ملورین
+          <img src="img/Capture.JPG" style="width: 70px;">
+      </button>
+    </div>
+    <div class="header-blue order-2">
+      <nav class="navbar navbar-expand-lg navbar-light p-3" >
+        
+          <div class="container">
+          
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <button type="button" class="btn text-light ms-0" data-bs-toggle="modal" data-bs-target="#myModal">
+                      <span class="material-symbols-outlined">
+                        person_add
+                        </span>
+                    </button>
+                
+                </li>
+                <li class="nav-item">
+                  
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle ms-3"  data-bs-toggle="dropdown" href="#" style="color: #ffffff;"><span class="material-symbols-outlined  text-light " title="EN" >
+                      language
+                      </span></a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index - Copy.html">
+                        English</a></li>
+                      <li><a class="dropdown-item" href="index.html">Persian</a></li>
+                    </ul>
+                  </li>
+                </li>
+                
+                <li class="nav-item">
+                  <form class="form-inline mr-auto ms-3" target="_self">
+                      <div class="form-group">
+                          <label for="search-field">
+                              <i class="fa fa-search" style="color: aliceblue;"></i>
+                          </label>
+                          <input class="form-control search-field" type="search" name="search" id="search-field"></div>
+                  </form>
+                </li>
+                &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                <li class="nav-item">
+                  <a class="nav-link active text-light  ms-3" aria-current="page" href="#"style="color: #ffffff;">درباره ما</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light  ms-3" aria-current="page" href="#"style="color: #ffffff;">هدیه</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle  ms-3"  data-bs-toggle="dropdown" href="#"  style="color: #ffffff;">مناسبت ها</a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"style="text-align: center;">گل تبریک</a></li>
+                      <li><a class="dropdown-item" href="#"style="text-align: center;">گل تولد</a></li>
+                      <li><a class="dropdown-item" href="#"style="text-align: center;">گل تشکر و قدر دانی</a></li>
+                      <li><a class="dropdown-item" href="#"style="text-align: center;">گل عاشقانه</a></li>
+                      <li><a class="dropdown-item" href="#"style="text-align: center;">گل سالگرد ازدواج</a></li>
+                      <li><a class="dropdown-item" href="#"style="text-align: center;">گل خواستگاری</a></li>
+                      <li><a class="dropdown-item" href="#"style="text-align: center;">گل عیادت بیمار</a></li>
+                      <li><a class="dropdown-item" href="#"style="text-align: center;">گل ترحیم</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle ms-3" data-bs-toggle="dropdown" href="#" style="color: #ffffff;">گیاهان</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">گیاه پتوس</a></li>
+                    <li><a class="dropdown-item" href="#">گیاه فیکوس</a></li>
+                    <li><a class="dropdown-item" href="#">گیاه ارکیده</a></li>
+                  </ul>
+                </li>
+              
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle ms-3"  data-bs-toggle="dropdown" href="#" style="color: #ffffff;">گل ها</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" style="text-align: center;">گل رز</a></li>
+                    <li><a class="dropdown-item" href="#"style="text-align: center;">گل آفتاب گردون</a></li>
+                    <li><a class="dropdown-item" href="#"style="text-align: center;"> گل مریم</a></li>
+                    <li><a class="dropdown-item" href="#"style="text-align: center;">گل نرگس </a></li>
+                    <li><a class="dropdown-item" href="#"style="text-align: center;"> گل شقایق</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-light ms-3" aria-current="page" href="#">خانه</a>
+                </li>
+                
+               
+              </ul>		  
+            </div>
+          
+          </div>
+</nav>
+
+  </div>
+</div>
+</div>
+      
+  </div>
+      
+  </div>
+</div>
+
+     </div>
+  </div>
+</div>
+<div class="header-blue order-1">
+  <!-- The Modal -->
+<div class="modal fade" id="myModal">
+<div class="modal-dialog">
+<div class="modal-content">
+
+<!-- Modal Header -->
+<div class="modal-header">
+<h4 class="modal-title">خوش آمدید</h4>
+<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+</div>
+
+<!-- Modal body -->
+<div class="modal-body">
+<form class = "form-horizontal" role = "form">
+
+<div class = "form-group">
+<label for = "lastname" class = "col-sm-12 control-label p-2" style="text-align:right;" >نام و نام خانوادگی</label>
+
+<div class = "col-sm-12">
+<input type = "text" class = "form-control" id = "firstname" placeholder = "نام و نام خانوادگی را وارد نمایید">
+</div>
+</div>
+
+<div class = "form-group">
+<label for = "lastname" class = "col-sm-12 control-label p-2" style="text-align:right;" >تلفن</label>
+
+<div class = "col-sm-12">
+<input type = "text" class = "form-control" id = "lastname" placeholder = "شماره تماس خود را وارد نمایید">
+</div>
+</div>
+<div class = "form-group">
+<label for = "lastname" class = "col-sm-12 control-label p-2" style="text-align:right;" >ایمیل</label>
+
+<div class = "col-sm-12">
+<input type = "text" class = "form-control" id = "lastname" placeholder = "ایمیل خود را وارد نمایید">
+</div>
+</div>
+
+
+</form>
+</div>
+
+<!-- Modal footer -->
+<div class="modal-footer">
+<div class = "form-group">
+<div class = "col-sm-offset-2 col-sm-12">
+<button type = "submit" class = "btn btn-default" style="background-color: rgb(73, 106, 78); color: aliceblue;">ثبت</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<!--منو-->
+
+          <!-- اسلایدر-->
+          
+          <div class="container-fluid " style="background: linear-gradient(#67df75a7, #437e4a5e, #67df75a7);">
+            <div class="row">
+                <div class="col-sm-1 p-3  text-white"></div>
+                <div class="col-sm-10 p-3  text-white">
+                    <!-- Carousel -->
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      
+                        <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                        </div>
+      
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/img-s/1.jpg" alt="img slider1" class="d-block" style="width: 1300px;height:400px; ">
+                                <div class="carousel-caption">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/img-s/2.jpg" alt="img slider2" class="d-block" style="width: 1200px;height:400px; ">
+                                <div class="carousel-caption">
+      
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/img-s/3.jpg" alt="img slider3" class="d-block" style="width: 1200px;height:400px; ">
+                                <div class="carousel-caption">
+      
+                                </div>
+                            </div>
+                        </div>
+      
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+                    </div>
+      
+      
+                </div>
+                <div class="col-sm-1 p-3  text-white "></div>
+            </div>
+        </div>
+       <!-- اسلایدر-->
+          <!-- عکس و متن1-->
+          
+          <div class="container">
+            <div class="row text-center">
+        
+                <!-- Team item -->
+                <div class="col-xl-2 col-sm-4 mb-5">
+                    <div class=" rounded  py-5 px-4">
+                      <a href="#" style="text-decoration:none;">
+                        <img src="img/img-m/1.1.6.webp" alt="img1" width="300" class="img-fluid rounded-circle  img-thumbnail shadow-sm">
+                        <h5 class="mb-0">گل رز</h5>
+                      </a>
+                    </div>
+                </div>
+                <!-- End -->
+        
+                <!-- Team item -->
+                <div class="col-xl-2 col-sm-4 mb-5">
+                    <div class=" rounded  py-5 px-4">
+                      <a href="#" style="text-decoration:none;">
+                        <img src="img/img-m/8.jpg" alt="img2" width="300" class="img-fluid rounded-circle img-thumbnail shadow-sm">
+                        <h5 class="mb-0">گل تولد</h5>
+                      </a>
+                    </div>
+                </div><!-- End -->
+      
+                   <!-- Team item -->
+                   <div class="col-xl-2 col-sm-4 mb-5">
+                    <div class=" rounded  py-5 px-4">
+                      <a href="#" style="text-decoration:none;">
+                        <img src="img/img-m/10.jpg" alt="img3" width="300" class="img-fluid rounded-circle img-thumbnail shadow-sm">
+                        <h5 class="mb-0">گیاه سایز بزرگ</h5>
+                      </a>
+                    </div>
+                </div><!-- End -->
+                
+        
+                <!-- Team item -->
+                <div class="col-xl-2 col-sm-4 mb-5">
+                    <div class=" rounded  py-5 px-4">
+                      <a href="#" style="text-decoration:none;">
+                        <img src="img/img-m/11.jpg" alt="img4" width="300" class="img-fluid rounded-circle  img-thumbnail shadow-sm">
+                        <h5 class="mb-0">لاکچری</h5>
+                      </a>
+                    </div>
+                </div><!-- End -->
+        
+                <!-- Team item -->
+                <div class="col-xl-2 col-sm-4 mb-5">
+                    <div class=" rounded  py-5 px-4">
+                      <a href="#" style="text-decoration:none;">
+                        <img src="img/img-m/9.jpg" alt="img5" width="300" class="img-fluid rounded-circle  img-thumbnail shadow-sm">
+                        <h5 class="mb-0">گیاه آپارتمانی</h5>
+                      </a>
+                    </div>
+                </div><!-- End -->
+      
+                <!-- Team item -->
+                    <div class="col-xl-2 col-sm-4 mb-5">
+                       <div class=" rounded  py-5 px-4">
+                        <a href="#" style="text-decoration:none;">
+                        <img src="img/img-m/1.1.1.webp" alt="img6" width="300" class="img-fluid rounded-circle  img-thumbnail shadow-sm">
+                         <h5 class="mb-0">ارسال امروز</h5>
+                        </a>
+                       </div>
+                    </div><!-- End -->
+      
+            </div>
+        </div>
+          <!--  عکس ومتن2-->
+          <div class="container py-3" >
+           
+            <!-- Card Start -->
+            <div class="card">
+              <div class="row ">
+          
+                <div class="col-md-7 px-3">
+                  <div class="card-block px-6">
+                    <br>
+                    <h4 class="card-title" style="text-align:right;">هر آنچه که باید در مورد نگهداری گل کراسولا، نحوه تکثیر و بیماری کراسولا خرفه ای بدانید </h4>
+                    <p class="card-text" style="text-align:right;">
+                      گل کراسولا، گیاهی پر انرژی و بسیار مقاوم است. در خانه‌های آپارتمانی شلوغ، که زمان کافی برای رسیدگی به گیاهان وجود ندارد، گل یشم، ابرقهرمانی همیشه سبز است که فضا خانه را تماشایی و درون خانه را مملو از حال خوش می‌کند. این ساکولنت کراسولای خرفه، انواع بسیار مختلفی دارد که با توجه به ظاهر آن می‌توانید، گیاه مورد پسند خود را خریداری کنید. اگر اصول مراقبت و نگهداری از کراسولای قاشقی را بدانید سال‌های سال می‌توانید از این گیاه زیبا نگهداری کنید. با ما همراه باشید تا با انواع کراسولا، نحوه نگهداری، تکثیر، بیماری و … آشنا شوید.
+                    </p>
+                   <br>
+                    <a href="#" class="mt-auto btn  m-4 "  style="background-color: #6da688;">ادامه مطالب</a>
+                  </div>
+                </div>
+                <!-- Carousel start -->
+                <div class="col-md-5">
+                  <div id="CarouselTest" class="carousel slide" data-ride="carousel">
+      
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block"style="width: 525px; height: 320px;" src="img/s-2/گ 2.webp" alt="img1">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block" style="width: 525px; height: 320px;" src="img/s-2/گ2.jpg" alt="img2">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block" style="width: 525px; height: 320px;" src="img/s-2/گیاه-کراسولا.jpg" alt="img3">
+                      </div>
+                      <a class="carousel-control-prev" href="#CarouselTest" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only"></span>
+            </a>
+                      <a class="carousel-control-next" href="#CarouselTest" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only"></span>
+            </a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of carousel -->
+              </div>
+            </div>
+            <!-- End of card -->
+            <br>
+            <br>
+
+          </div>
+            </div>
+           
+           <!--  عکس و متن 2-->
+           <div class="my-1 p-5" style="background-color: #9cffa85a;">
+            
+<div class="title h1 text-center p-2 " style="text-align: center; color: rgb(56, 33, 8);">''دسته گل پیشنهادی''</div>
+<br>
+      <!-- partial:index.partial.html -->
+      <div class="center">
+        <div class="wrapper">
+          <div class="inner">
+            <div class="card col-">
+              <img src="img/21.jpg">
+              <div class="content">
+                <h1>دسته گل شماره 1</h1>
+                <h3>قیمت 45000000</h3>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/3.webp">
+              <div class="content">
+                <h1>دسته گل شماره 2</h1>
+                <h3>قیمت 45000000</h3>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/5.jpg">
+              <div class="content">
+                <h1>دسته گل شماره 3</h1>
+                <h3>قیمت 45000000</h3>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/6.jpg">
+              <div class="content">
+                <h1>دسته گل شماره 4</h1>
+                <h3>قیمت 45000000</h3>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/7.webp">
+              <div class="content">
+                <h1>دسته گل شماره 5</h1>
+                <h3>قیمت 45000000</h3>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/20.jpg">
+              <div class="content">
+                <h1>دسته گل شماره 6</h1>
+                <h3>قیمت 45000000</h3>
+              </div>
+            </div>
+                  <div class="card">
+              <img src="img/10.1.1.webp">
+              <div class="content">
+                <h1>دسته گل شماره 7</h1>
+                <h3>قیمت 45000000</h3>
+              </div>
+            </div>
+                  <div class="card">
+              <img src="img/15.jpg">
+              <div class="content">
+                <h1>دسته گل شماره 8</h1>
+                <h3>قیمت 45000000</h3>
+              </div>
+            </div>
+                  <div class="card">
+              <img src="img/11.1.webp">
+              <div class="content">
+                <h1>دسته گل شماره 9</h1>
+                <h3>قیمت 45000000</h3>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+        
+        <div class="map">
+          <button class="active first"></button>
+          <button class="second"></button>
+          <button class="third"></button>
+        </div>
+      </div>
+      <!-- partial -->
+      
+      </div>
+      
+      <script  src="java/script.js"></script>
+        <!--  عکس و متن 2-->
+   <!--توصیه خرید-->
+   <section class="testimonial">
+    <div class="title h1 text-center " style="text-align: center; color: rgba(24, 4, 4, 0.825);">ارسال گل،تحویل در کمتر از 3 ساعت در سراسر مشهد</div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 d-none d-lg-block">
+                <ol class="carousel-indicators tabs">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                        <figure>
+                            <img src="img/انتخاب-گل-از-گل-فروشی-اینترنتی.png" class="rounded-circle" alt="Cinque Terre" width="230" height="236"> 
+                        </figure>
+                    </li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1">
+                        <figure>
+                            <img src="img/تحویل-فوری.png" class="rounded-circle" alt="Cinque Terre" width="150" height="290"> 
+                        </figure>
+                    </li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2">
+                        <figure>
+                            <img src="img/تحویل-گل.png" class="rounded-circle" alt="Cinque Terre" width="250" height="236"> 
+                        </figure>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-center" style="background-color: #ffe7d9;">
+            
+                <div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel" >
+                    <h2 style="text-align: right; color: #06450d;">خرید راحت تر و سریع تر گل و گیاه</h2>
+                    <h5 style="text-align: right; color: #06450d;">گلها و گیاهان ملورین بهترین هدیه برای عزیزان</h5>
+                    <br>
+                 
+                    <br>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="quote-wrapper">
+                                <h3 style="text-align: right; color: #000000; size: px;">انتخاب گل یا گیاه</h3>
+                                <br>
+                                <p style="text-align: right; color: #000000; size: px;">ممکن است شما به هر دلیل تصمیم به خرید گل یا خرید گیاه بگیرید. سعی ما در فروشگاه آنلاین گل و گیاه ملورین بر این است که تا جای ممکن سرویس‌هایی ارائه کنیم تا افراد با سلیقه‌های مختلف را برای سفارش آنلاین گل راضی نگه داریم.
+                                  دسته گل‌ طبیعی گل سرسبد هر گل فروشی است که می‌توان از آن‌ها برای هدیه دادن، زیبا کردن خانه یا ابراز احساسات استفاده کرد. اگر یک قرار عاشقانه دارید و یا به تازگی ‌می‌خواهید یک رابطه را شروع کنید می‌توانید از گل‌ های رز ممتاز گل فروشی اینترنتی ما به عنوان یک هدیه زیبا و لاکچری استفاده کنید </p>
+                                    <p style="text-align: right; color: #000000; size: px;">دسته گل، سبد گل، گیاه آپارتمانی یا ... انتخاب با شماست</p>
+                                    <h3>روی تصاویر،دکمه  کلیک کنید</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="quote-wrapper">
+                                <h3 style="text-align: right; color: #000000; size: px;"> انتخاب زمان و مکان تحویل</h3>
+                                <br>
+                              <p style="text-align: right; color: #000000; size: px;"> پیدا کردن هدیه مناسب در آخرین لحظات همیشه کار دشواری است. اما جای نگرانی نیست، سرویس ارسال گل روز  و گیاه روز این امکان را به شما می‌دهد تا به راحتی با خرید آنلاین گیاه آپارتمانی یا گلهای شاخه بریده از فروشگاه اینترنتی گل و گیاه در مشهد ، در همان روز در کمتر از 4 ساعت سفارش خود را تحویل بگیرید. اگر قصد هدیه دادن دارید با خرید گل و گیاه دارید، ما توسط تیم آموزش دیده ملورین در نهایت احترام آنها را درب منزل هدیه گیرنده از طرف شما تقدیم خواهیم کرد. سفارش گل آنلاین مشهد توسط فروشگاه ملورین از شنبه تا پنجشنبه انجام می‌شود. با این امکان می‌توانید با ارسال گل به منزل عزیزانتان آنها را هیجان‌زده کنید</p>
+                              <h3>روی تصاویر،دکمه  کلیک کنید</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="quote-wrapper">
+                                <h3 style="text-align: right; color: #000000; size: px;"> سفارش آنلاین گل و گیاه آپارتمانی  برای هر مناسبت</h3>
+                                <br>
+                                <p style="text-align: right; color: #000000; size: px;"> سفارش آنلاین گل و تحویل به موقع آن باعث می‌شود هدیه دادن به مناسب‌های مختلف آسان شود. شما می‌توانید بسته به مناسبت مورد خود، یکی از گل‌ها شاخه بریده یا گل‌های آپارتمانی را انتخاب کنید. اگر قرار است سالگرد ازدواجتان را جشن بگیرید، گل‌ های سالگرد ازدواج ما که با عشق توسط تیم گل فروشی اینترنتی ملورین طراحی شده، یک گزینه فوق العاده خواهد بود.
+
+                                    همچنین ما محصولاتی مثل گل تشکر و قدردانی داریم که می‌توانید از آن برای سپاسگزاری از اطرافیان خود استفاده کنید. اگر یکی از عزیزان شما مریض است می‌توانید با یک گل مناسب برای عیادت بیمار به بهتر شدن روحیه او کمک کنید.
+                                    
+                                    ممکن است شما به دنبال خرید هدیه مناسب برای تبریک به یک دوست برای موفقیت علمی او و یا ارتقای شغلی او باشید. برای این منظور خرید رز جاودان می‌تواند بهترین گزینه برای شما باشد تا آن را با متن دلخواه خود برای او ارسال کنید.</p>
+                                      <h3>روی تصاویر،دکمه  کلیک کنید</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script><script  src="java/script-1.js"></script>
+<!--توصیه خرید-->
+
+<div class="my-1 p-5" style="background-color:  #9cffa85a;">
+<div class="title h1 text-center p-2 " style="text-align: center; color: rgb(56, 33, 8);">''گیاهان سایز بزرگ''</div>
+<div class="container  my-3" style="background-color: #dbfbea;">
+<div class="container-fluid p-5  text-white text-center">
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col col-md-4 col-sm-6 col-12">
+    <div class="card">
+      <img src="img/New folder/5.webp" class="card-img-top" alt="img1" style=" width: 100%;">
+      <div class="card-body">
+          <h5 class="card-title" style="text-align: center; color: #1f2723;">گلدان گیاه کروتون</h5>
+          <div class="d-grid">
+            <button type="button" class="button button2 btn-block">انتخاب گزینه ها</button>
+          </div>
+         </div>
+    </div>
+  </div>
+  <div class="col col-md-4 col-sm-6 col-12">
+    <div class="card">
+      <img src="img/New folder/9.webp" class="card-img-top" alt="img2"style=" width: 100%;">
+      <div class="card-body">
+          <h5 class="card-title" style="text-align: center; color: #1f2723;">
+              گیاه آپارتمانی برگ انجیری</h5>
+          <div class="d-grid">
+            <button type="button" class="button button2 btn-block">انتخاب گزینه ها</button>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="col col-md-4 col-sm-6 col-12">
+    <div class="card">
+      <img src="img/New folder/3.webp" class="card-img-top" alt="img3" style=" width: 100%;">
+      <div class="card-body">
+          <h5 class="card-title" style="text-align: center; color: #1f2723;">گیاه آپارتمانی زاموفیلیا</h5>
+          <div class="d-grid">
+            <button type="button" class="button button2 btn-block">انتخاب گزینه ها</button>
+          </div>
+       </div>
+    </div>
+  </div>
+  <div class="col col-md-4 col-sm-6 col-12">
+    <div class="card">
+      <img src="img/New folder/4.webp" class="card-img-top" alt="img4" style=" width: 100%;">
+      <div class="card-body">
+          <h5 class="card-title" style="text-align: center; color: #1f2723;">گلدان نخل شامادورا</h5>
+          <div class="d-grid">
+            <button type="button" class="button button2 btn-block">انتخاب گزینه ها</button>
+          </div>
+       </div>
+    </div>
+  </div>
+
+  <div class="col col-md-4 col-sm-6 col-12">
+    <div class="card">
+      <img src="img/New folder/10.webp" class="card-img-top" alt="img10" style=" width: 100%;">
+      <div class="card-body">
+          <h5 class="card-title" style="text-align: center; color: #1f2723;">گیاه آپارتمانی سانسوریا</h5>
+          <div class="d-grid">
+            <button type="button" class="button button2 btn-block">انتخاب گزینه ها</button>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="col col-md-4 col-sm-6 col-12">
+    <div class="card">
+      <img src="img/New folder/6.webp" class="card-img-top" alt="img6" style=" width: 100%;">
+      <div class="card-body">
+          <h5 class="card-title" style="text-align: center; color: #1f2723;">گیاه آپارتمانی شفلرا</h5>
+          <div class="d-grid">
+            <button type="button" class="button button2 btn-block">انتخاب گزینه ها</button>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="col col-md-4 col-sm-6 col-12  ">
+    <div class="card">
+      <img src="img/New folder/7.webp" class="card-img-top" alt="img7"style=" width: 100%;">
+      <div class="card-body">
+          <h5 class="card-title" style="text-align: center; color: #1f2723;">گلدان گیاه کروتون</h5>
+          <div class="d-grid">
+            <button type="button" class="button button2 btn-block">انتخاب گزینه ها</button>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="col col-md-4 col-sm-6 col-12">
+    <div class="card">
+      <img src="img/New folder/8.webp" class="card-img-top" alt="img8" style=" width: 100%;">
+      <div class="card-body">
+          <h5 class="card-title" style="text-align: center; color: #1f2723;">گیاه آپارتمانی کروتون رشته ای</h5>
+          <div class="d-grid">
+            <button type="button" class="button button2 btn-block">انتخاب گزینه ها</button>
+          </div>
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="col col-md-4 col-sm-6 col-12">
+    <div class="card">
+      <img src="img/New folder/12.webp" class="card-img-top" alt="img12" style=" width: 100%;">
+      <div class="card-body">
+          <h5 class="card-title" style="text-align: center; color: #1f2723;">گیاه آپارتمانی قاشقی</h5>
+          <div class="d-grid">
+            <button type="button" class="button button2 btn-block">انتخاب گزینه ها</button>
+          </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<section class="home-application-download" style="background-image: url(https://titigift.com/images/thumbs/0001370_%DA%AF%D9%84.jpeg);">
+  <div class="container">
+    <div class="row justify-content-lg-end justify-content-center pt-lg-4">
+      <div class="py-4 mt-lg-5 mt-4 col-lg-7 col-xl-6">
+        <div class="card home-custom-card bg-gray w-100"><!----><!----><div class="card-body" style="text-align: right;"><!----><!---->
+          <div class="h2 bg-gray px-3 home-custom-card-header d-block font-weight-bold">بدون محدودیت گل سفارش دهید</div>
+           <div class="clearfix"></div> <ul class="list-unstyled p-0 m-0"><li class="py-1"> امکان پرداخت هزینه گل با تمامی کارت‌های دنیا✅</li>
+             <li class="py-1"> كارت پستال مهر و موم شده رایگان✅</li> 
+             <li class="py-1"> دریافت پیام تشكر از گیرنده گل✅</li>
+              <li class="py-1"> اطلاع لحظه ای از وضعیت سفارش گل✅</li>
+               <li class="py-1"> امكان انتخاب ارسال سورپرایز✅</li> 
+               <li class="py-1"> امکان ارسال رایگان گل✅</li> 
+               <li class="py-1"> و ده‌ها امكان دیگر✅</li></ul></div><!----><!----></div></div></div></div></section>
+      </div>
+
+
+      <div class="footer-contact position-relative text-center" data-v-87998806="" style="background-color:  #9cffa85a;">
+        <div class="text-white text-center container" data-v-87998806="">
+          <div class="footer-contact-content position-relative pt-5 pb-4" data-v-87998806="">
+            <div class="row justify-content-center mb-3" data-v-87998806="">
+              <div class="col" data-v-87998806="">
+                <div class="h2 large-line-height" data-v-87998806="" style="color: #000000;">ساعات پاسخگویی تلفنی</div>
+                 <div class="d-flex flex-column" data-v-87998806=""><span data-v-87998806="" style="color: #000000;"> شنبه تا چهارشنبه: ۹:۰۰ تا ۱۸:۰۰</span> 
+                  <span data-v-87998806="" style="color: #000000;"> پنجـشنبـــه و جمعه: ۹:۰۰ تا ۱۳:۰۰</span></div></div></div> 
+                  <div class="row justify-content-center" data-v-87998806="">
+                    <div class="text-center col-auto" data-v-87998806="">
+                      <div class="d-flex justify-content-center align-items-center mt-1" data-v-87998806="">
+                     </div></div></div>
+                         <div class="row justify-content-center mt-4 pt-2" data-v-87998806="">
+                          <div class="col" data-v-87998806="">
+                        </a></div></div></div> <div class="footer-contact-bg position-absolute" data-v-87998806=""></div></div></div>
+      
+            <!--فوتر-->
+            <footer class=" text-center text-lg-start" style="background-color:  #9cffa85a;">
+              <!-- ایکون ها -->
+<section class="trial-block " id="ContactUs">
+        
+  <div class="social-overlap process-scetion ">
+   <div class="container">
+       <div class="row justify-content-center">
+           <div class="col-md-12">
+               <div class="social-bar">
+                   <div class="social-icons  iconpad text-center">
+                      
+                      
+                       <a  class="slider-nav-item"><i class="fab fa-google-plus"></i></a>
+                       <a href="https://www.youtube.com/watch?v=_XiOcsj3oNI&t=50s" target="_blank" class="slider-nav-item"><i class="fab fa-instagram"></i></a>
+   
+                       <a href="https://www.youtube.com/watch?v=_XiOcsj3oNI&t=50s" target="_blank" class="slider-nav-item"><i class="fab fa-skype"></i></a>                                
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</div>
+
+</section>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js'></script>
+<!-- ایکون ها -->
+<br><br><br>
+              <!-- Grid container -->
+              <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-uppercase" style="text-align:center; padding: 1px;">اطلاعات بیشتر</h5>
+            <hr>
+                    <ul class="list-unstyled mb-0" style="text-align:center;">
+                  
+                      <li>
+                        <a  class="text-dark m-4 ">آدرس باغ:پاکدشت،گلستان5 -پلاک 107</a>
+                      </li>
+                      <li>
+                        <a  class="text-dark m-4">بخش اداری:مشهد-وکیل اباد 10</a>
+                      </li>
+                      <li>
+                        <a  class="text-dark m-4 "href="#!" style="text-decoration:none;">شماره تماس:38145998-37552299</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--Grid column-->
+            
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0" style="text-align:center; padding: 1px;">دسترسی سریع</h5>
+            <hr>
+                    <ul class="list-unstyled" style="text-align: center;">
+                      <li>
+                        <a href="#!" class="text-dark" style="text-decoration:none;">تماس با ما</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-dark" style="text-decoration:none;">درباره ما</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-dark" style="text-decoration:none;">شرایط و قوانین</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-dark" style="text-decoration:none;">سوالات متدوال</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--Grid column-->
+            
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0" style="text-align:center; padding: 1px;">دسته بندی</h5>
+            <hr>
+                    <ul class="list-unstyled" style="text-align: center; ">
+                      <li>
+                        <a href="#!" class="text-dark" style="text-decoration:none;">انواع گل</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-dark" style="text-decoration:none;">گل های آپارتمانی</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-dark" style="text-decoration:none;">گیاهان اپارتمانی</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-dark" style="text-decoration:none;">سانسوریا</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Grid container -->
+            
+              <!-- Copyright -->
+              <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                <a class="text-dark" href="#" style="text-decoration:none;" >مجموعه گل و گیاه ملورین</a>
+              </div>
+              <!-- Copyright -->
+            </footer>
+      <!--فوتر-->
+          </div>
+        </div>
+</body>
+</html>
+
+
